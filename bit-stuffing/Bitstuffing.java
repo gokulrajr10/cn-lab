@@ -1,10 +1,9 @@
 import java.io.*;
-import java.lang.*;
 public class Bitstuffing
 {
     public static void main(String args[]) throws IOException
     {
-        int i = 0, x, q = 0;
+        int i = 0, x;
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
         String sy = "01111110", sx;
